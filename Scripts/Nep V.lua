@@ -7332,7 +7332,7 @@ if FlingEnabled == true then
 			flinging = true
 			socket:Send(game.Players.LocalPlayer.Name .. " " .. hit.Parent.Name)
 			print(game.Players.LocalPlayer.Name .. " " .. hit.Parent.Name)
-			wait(0.5)
+			wait(Global.NepV.FlingTime)
 			flinging = false
 		end
 	end)
