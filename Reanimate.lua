@@ -21,7 +21,7 @@ local Global = (getgenv and getgenv()) or getfenv(0) -- globals
 
 --[[
 Global.Settings = {
-    ['Mode'] = 1, -- 1 is defualt (Sukmas hats) and 2 is free 3 is original (gelateks hats)
+    ['Mode'] = 1, -- 1 is defualt (Sukmas hats with diffrent arms) and 2 is free 3 is original (gelateks hats)
     ['CSCollisionsOff'] = false,
     ['AntiSleepBoost'] = 10,
     ['AntiRagdoll'] = true,
