@@ -17,7 +17,7 @@
 
 ]]--
 
-local Global = (getgenv and getgenv()) or getfenv(0) -- globals
+local Global = (getgenv and getgenv()) or shared -- globals
 
 --[[
 Global.Settings = {
